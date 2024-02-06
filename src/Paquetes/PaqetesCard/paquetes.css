@@ -1,0 +1,25 @@
+.card{
+    width: 24rem;
+    margin-top : 6rem
+}
+
+/* Definir la animación de aparición gradual */
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Aplicar la animación al elemento deseado */
+  body {
+    /* Duración de la animación: 0.2 segundos */
+    animation: fade-in 0.9s;
+    /* Retraso de la animación: 0.2 segundos */
+    animation-delay: 0.5s;
+    /* Ejecutar la animación una sola vez */
+    animation-iteration-count: 1;
+  }
+  

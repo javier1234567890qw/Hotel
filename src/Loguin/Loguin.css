@@ -1,0 +1,17 @@
+.borroso{
+    background: rgba(241, 239, 239, 0.3);
+    /* Color de fondo con transparencia */
+    backdrop-filter: blur(5px);
+    
+    
+    /* Filtro de desenfoque de 5 píxeles */
+}
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* body{
+    background-image: url("https://img.freepik.com/free-vector/hotel-building-concept-illustration_114360-14039.jpg?w=740&t=st=1707193149~exp=1707193749~hmac=d9ebd57a1a5a4b2c817edad40aef50edeb9d8c11fd0ba4b3db4d8d2b7684e057");
+    background-size: contain
+} */

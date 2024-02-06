@@ -1,0 +1,6 @@
+.borroso{
+    background: rgba(241, 239, 239, 0.3);
+    /* Color de fondo con transparencia */
+    backdrop-filter: blur(5px);
+    /* Filtro de desenfoque de 5 píxeles */
+}
